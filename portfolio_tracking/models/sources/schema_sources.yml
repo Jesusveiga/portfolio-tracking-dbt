@@ -1,0 +1,37 @@
+version: 2
+
+sources:
+  - name: abc_bank
+    description: "Fuente de datos crudos provenientes de la exportación de ABC Bank."
+    database: PORTFOLIO_TRACKING
+    schema: SOURCE_DATA
+    tables:
+      - name: ABC_BANK_POSITION
+        description: "Tabla cruda con las posiciones diarias de inversión por cuenta."
+        columns:
+          - name: accountID
+            description: "Identificador de la cuenta (ej. ABC000123)."
+          
+          - name: symbol
+            description: "Ticker o símbolo del activo (ej. GCM, TTD)."
+          
+          - name: description
+            description: "Nombre descriptivo de la empresa."
+          
+          - name: exchange
+            description: "Bolsa o mercado de origen (ej. TSE, NASDAQ)."
+          
+          - name: report_date
+            description: "Fecha del reporte de la posición."
+          
+          - name: quantity
+            description: "Cantidad de unidades poseídas."
+          
+          - name: cost_base
+            description: "Costo base de adquisición."
+          
+          - name: position_value
+            description: "Valor de mercado actual."
+          
+          - name: currency
+            description: "Moneda de la transacción (ej. CAD, USD)."
