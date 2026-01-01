@@ -1,0 +1,32 @@
+[0m12:04:25.818536 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BE15B27B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BE15B3AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BE15B2420>]}
+
+
+============================== 12:04:25.841684 | 93a9ae1f-b082-497e-bc2d-8e84995bd4b6 ==============================
+[0m12:04:25.841684 [info ] [MainThread]: Running with dbt=1.11.2
+[0m12:04:25.841684 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\jesus.veiga\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init portfolio-tracking', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m12:04:59.372954 [debug] [MainThread]: Starter project path: C:\Users\jesus.veiga\Desktop\data-engineering-with-dbt\dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m12:04:59.469706 [info ] [MainThread]: 
+Your new dbt project "portfolio_tracking" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:04:59.469706 [info ] [MainThread]: Setting up your profile.
+[0m12:05:09.668913 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m12:05:09.668913 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m12:05:09.668913 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m12:08:35.512943 [info ] [MainThread]: Profile portfolio_tracking written to C:\Users\jesus.veiga\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:08:35.520008 [debug] [MainThread]: Command `dbt init` succeeded at 12:08:35.520008 after 249.98 seconds
+[0m12:08:35.521151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BE297BEF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BE193A0C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026BE1C27080>]}
+[0m12:08:35.521151 [debug] [MainThread]: Flushing usage events
+[0m12:08:36.301864 [debug] [MainThread]: An error was encountered while trying to flush usage events
